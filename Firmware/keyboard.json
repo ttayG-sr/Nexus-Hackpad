@@ -40,7 +40,7 @@
             ]
         }
     },
-    "encoder": {
+    "encoders": {
         "rotary": [
             {
                 "pin_a": "GP29",
