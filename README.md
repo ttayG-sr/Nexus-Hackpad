@@ -8,7 +8,7 @@
 Additionally, I tried my best to round everything for moderate viewing angles for the OLED and a more aesthetic look.
 
 
-<img width="813" height="650" alt="Screenshot 2026-07-10 at 6 24 03 PM" src="https://github.com/user-attachments/assets/5a43b770-0c6b-46e6-8bc3-40580861c842" />
+<img width="1338" height="961" alt="Screenshot 2026-07-10 at 6 52 28 PM" src="https://github.com/user-attachments/assets/a9d91f8d-a52d-40ac-97c6-9b047e9ab322" />
 
 Exploded View:
 
