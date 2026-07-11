@@ -12,7 +12,7 @@ Additionally, I tried my best to round everything for moderate viewing angles fo
 
 Exploded View:
 
-<img width="1394" height="1160" alt="Screenshot 2026-07-10 at 6 33 04 PM" src="https://github.com/user-attachments/assets/c3715ea1-771a-415a-867c-e58297fe1370" />
+<img width="1290" height="1172" alt="Screenshot 2026-07-10 at 6 53 29 PM" src="https://github.com/user-attachments/assets/54afd137-218f-46f3-b3eb-b15a5b977a50" />
 
 ## PCB:
 This is the PCB that connects all of my components and houses the brain of the Nexus Pad; it was all made in KiCAD.
