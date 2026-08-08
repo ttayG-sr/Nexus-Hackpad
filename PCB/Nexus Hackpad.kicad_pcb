@@ -93,10 +93,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../")
 		)
 	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -136,7 +136,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0bd71fd7-a81f-47f5-b5d5-3cec4b2ab433")
+			(uuid "9e95a35a-505a-441c-8600-4976a9c59ded")
 			(effects
 				(font
 					(size 1 1)
@@ -148,7 +148,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baa4103f-87eb-4faa-ab84-7b0ea36e8f00")
+			(uuid "f81adc7a-20e1-40ed-9416-0130d51af301")
 			(effects
 				(font
 					(size 1 1)
@@ -161,7 +161,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bda69d7-e65b-4fe7-bb6e-d7345b62da54")
+			(uuid "6c2c7f62-641e-4c24-9f0e-aafd39e50720")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,12 +169,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "726c68ff-87b3-4628-b457-4c62a993d709")
+			(uuid "fe28c1f6-4745-47c1-b91c-9aa058758d79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,6 +185,12 @@
 		(path "/b5e50078-a17d-4dcf-acff-ab703c15c063")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -424,7 +430,7 @@
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e9d0e8d7-145b-4da8-a7fd-b881830aa54b")
+			(uuid "5c4a5798-edef-4a80-ade4-b81cd4312ff8")
 			(effects
 				(font
 					(size 1 1)
@@ -436,7 +442,7 @@
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7186528-6306-4828-9bbf-abe4960d3083")
+			(uuid "39324279-b9dd-429d-958d-148241ad808d")
 			(effects
 				(font
 					(size 1 1)
@@ -449,7 +455,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3ac51a1-4e8e-4b1c-bc43-00702a3b9a37")
+			(uuid "9406abe7-2d32-45a6-9f65-dfc2f6d4bd98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,12 +463,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e930e357-120d-40e4-b4f0-8a7c590b3971")
+			(uuid "11846ca7-b650-4265-bd8d-ee73e6e535a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,6 +480,12 @@
 		(path "/9ee5f9db-2317-4d79-a151-0ddc018b82ca")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C" "B" "S1" "S2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -766,7 +778,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "C_C")
 			(pintype "passive")
 			(uuid "a6aa6d89-5d0d-4999-9da8-fb0906ae8a54")
@@ -844,7 +856,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8662558c-b011-4d7e-acd8-179ef46d67b2")
+			(uuid "91645b7b-4416-420e-b5d1-5151b94a7a6d")
 			(effects
 				(font
 					(size 1 1)
@@ -857,7 +869,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2defc815-f6a9-40a9-aef5-550f77a1e962")
+			(uuid "14cdd96e-cd6c-47ae-96df-6bf15d27eb41")
 			(effects
 				(font
 					(size 1 1)
@@ -865,11 +877,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84a7c9bf-6c20-4a7c-a5a2-d8f8b00fb07f")
+			(uuid "e90001f2-16d7-4014-8b01-7580a4fa34d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,11 +889,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1170fb2-5e3a-4d2b-b40e-2bec4a87651a")
+			(uuid "6f0a8d7c-9b77-4f98-adb1-06ffd4f257f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,6 +918,12 @@
 		(path "/d38866a2-6aa6-4b5f-8f9d-1312781d048e")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1187,7 +1205,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "860613b7-dca8-459e-bfbb-6cb745c727e9")
@@ -1207,7 +1225,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "3144fe81-978a-42f7-8572-c9c402fb2344")
@@ -1256,7 +1274,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bc95484a-875f-4c11-8f63-92f68b56b34d")
+			(uuid "b0e8c756-f79f-48a9-815f-57fa44b7c810")
 			(effects
 				(font
 					(size 1 1)
@@ -1268,7 +1286,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aabda719-7eec-41dc-a57f-8913c8b58dcb")
+			(uuid "cf465a0c-1493-4681-91d8-adaefd8fbdd0")
 			(effects
 				(font
 					(size 1 1)
@@ -1281,7 +1299,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88ec6cc8-9421-4fa3-abab-c218445852fd")
+			(uuid "cf7f4db2-0fa3-47a0-8653-284014ca1ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,12 +1307,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5f94c20-d58e-4af2-bb74-5df2eb533a38")
+			(uuid "5e766f89-298f-4b31-8365-681e096c7a28")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,6 +1323,12 @@
 		(path "/63f66a28-3426-49c8-a017-7cdc4e8b69ec")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1544,7 +1568,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6275ea1d-8c27-4776-8a1b-b8d955ba16ec")
+			(uuid "76560062-be73-4287-ba31-535a69f78148")
 			(effects
 				(font
 					(size 1 1)
@@ -1556,7 +1580,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0536853e-5473-46d6-9ac7-40a95505cea9")
+			(uuid "7783d3e3-0538-45e3-a8ee-408adc3d4f03")
 			(effects
 				(font
 					(size 1 1)
@@ -1569,7 +1593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fbf1b57-5683-43b3-8962-b43c36af5de1")
+			(uuid "187c0b5c-3217-47f9-9309-3a39db4021d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,12 +1601,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c81d050e-1760-4f75-8f4b-57e36942b4bb")
+			(uuid "1da80518-4bb4-4113-b5d1-768dba47e9c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,6 +1617,12 @@
 		(path "/4345394c-768f-4f01-a9e6-faed80f4fa31")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1832,7 +1862,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6e031f86-c536-4ada-9070-b2c2c05ff478")
+			(uuid "dfe2130e-dd13-412a-a97a-29f2acd83344")
 			(effects
 				(font
 					(size 1 1)
@@ -1844,7 +1874,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b850ec51-1afb-4ea7-bb99-77997d463923")
+			(uuid "37112cec-0ecb-4968-8cb2-c840fb6e4e08")
 			(effects
 				(font
 					(size 1 1)
@@ -1857,7 +1887,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ee1b706-bf1a-442f-a066-53a18e56c204")
+			(uuid "bb0f0e8d-ea6c-4925-9284-d94bed45089a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,12 +1895,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42e60d12-8f57-4937-b7db-9de92342066b")
+			(uuid "b238ec4b-330f-4d67-84f5-a4e69cfc40bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,6 +1911,12 @@
 		(path "/a89193aa-6b77-4ae6-8305-dcbeaf9e6f6c")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2120,7 +2156,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "552065e6-b974-4fe8-b2a4-bfccf3977b1f")
+			(uuid "1919fa21-fa7b-4208-b55d-dfd1e8938def")
 			(effects
 				(font
 					(size 1 1)
@@ -2133,7 +2169,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f2d00ae-e89e-40ae-a289-e6ee5868fc1e")
+			(uuid "95d266e6-1040-4f10-b3e3-2cf1dbf1842f")
 			(effects
 				(font
 					(size 1 1)
@@ -2141,11 +2177,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e457fd3-9b0d-4a3b-8d34-93ad25160dfb")
+			(uuid "85e773cd-c267-4a69-8dfe-ec2392687ee6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,11 +2189,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7570b9ae-2484-4491-9e5e-c3fdb70b6de4")
+			(uuid "400a5116-6e3e-49e3-b773-5d7f4065738c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,6 +2218,12 @@
 		(path "/3f8c76d2-4bec-4150-8710-40e1d57ba9bd")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -2463,7 +2505,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "ddaf67ae-7f56-4e90-a66f-ceba43f278c4")
@@ -2483,7 +2525,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "fb20885a-2483-4348-ad0d-0a548761b472")
@@ -2532,7 +2574,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "596f5282-aaf8-4ed7-9969-94324b7ed606")
+			(uuid "b72507d5-c407-4fd2-8880-fca12507bb27")
 			(effects
 				(font
 					(size 1 1)
@@ -2545,7 +2587,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72338649-36af-406b-98ef-39ae1307ff38")
+			(uuid "6226ba5f-4170-4361-92c9-8325b98834f3")
 			(effects
 				(font
 					(size 1 1)
@@ -2553,11 +2595,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "332050dc-c8ff-45d4-9730-63f7fde07352")
+			(uuid "007f5142-f341-4b06-8c75-54755a94084e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,11 +2607,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "460b24d5-ab4f-4633-b660-a3c6c7267a21")
+			(uuid "771a7680-f522-49ce-83b9-c85214a26057")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,6 +2636,12 @@
 		(path "/695980fc-0a2f-42bd-80c7-0fe93cc10e55")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -2875,7 +2923,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "f2e1659c-f12f-4650-a913-54442d394444")
@@ -2895,7 +2943,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "2c2d0e16-74d9-4761-be9b-54eff8cc9096")
@@ -2944,7 +2992,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4fb2f39b-ab3d-4b6f-bd19-4f1e87e6513b")
+			(uuid "e39bf02d-e720-4853-a918-74d46f5398c4")
 			(effects
 				(font
 					(size 1 1)
@@ -2956,7 +3004,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "522f4ee1-58e3-4e9c-bf57-93ad788ff45a")
+			(uuid "5309d69f-352d-413d-9722-35f65d532845")
 			(effects
 				(font
 					(size 1 1)
@@ -2969,7 +3017,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2dcb847-64c8-4b05-8267-0fde53057a3a")
+			(uuid "f720566a-1162-46f1-af56-3e8c318e7c6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,12 +3025,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ae5cbb8-b120-4221-862b-2442c29b1b50")
+			(uuid "41d04994-3fd5-43e4-b78d-47b050af3d72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,6 +3041,12 @@
 		(path "/8c71c1a6-a0b2-4478-9746-a109b2d76911")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3566,7 +3620,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "31cd5583-e8f4-4046-b7da-0924c1fad54f")
+			(uuid "67a0ff2e-687c-4683-9125-957f0fdf3a0b")
 			(effects
 				(font
 					(size 1 1)
@@ -3578,7 +3632,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccdc4502-e6fb-4628-bbc9-ad88ad6ea21d")
+			(uuid "5f062b22-6ab0-4642-a105-c85259e44021")
 			(effects
 				(font
 					(size 1 1)
@@ -3591,7 +3645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae2c57f6-c387-4097-98aa-fbffa2cb87dc")
+			(uuid "e5dbde8b-0226-4753-9783-e2f3ae4f49a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,12 +3653,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20208b6a-9f78-4f90-b46a-b6720eb54c6e")
+			(uuid "a0909282-74cd-4027-8ba2-48ed4d191f18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,6 +3669,12 @@
 		(path "/290d982c-ed00-40be-8fe8-3f877646ef63")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3854,7 +3914,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9e7509f4-6175-483d-81ac-57d0a5063448")
+			(uuid "81699ff2-ec72-49fe-b050-49435525ece1")
 			(effects
 				(font
 					(size 1 1)
@@ -3867,7 +3927,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b6c5289-1ce7-4e01-a1d7-3ac5c83284b4")
+			(uuid "282a4bed-b97c-40be-9949-bc5df7dd6622")
 			(effects
 				(font
 					(size 1 1)
@@ -3875,11 +3935,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1c1e79b-1a9d-4531-8068-8bfb767f38d0")
+			(uuid "79709588-f35b-48bf-937d-518ec11dd492")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,11 +3947,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "354e22d2-1ecb-4d10-b4f8-30f82aebc6a4")
+			(uuid "db32b4a1-fe34-4335-b5cf-72a0be0c5472")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,6 +3976,12 @@
 		(path "/1e085dfa-2b3d-4aea-939a-59dcd9965207")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -4197,7 +4263,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "ffb0b2ab-3dae-4e85-9734-5b5022880b9a")
@@ -4217,7 +4283,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "f35f8cc9-6577-4cd7-9286-cc9537ade702")
@@ -4266,7 +4332,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ef25b4af-f9b2-4c4f-a9af-0e0b78149439")
+			(uuid "f1a6f539-16c1-49ea-8a5d-d35b90d42306")
 			(effects
 				(font
 					(size 1 1)
@@ -4278,7 +4344,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a971101-3974-4e12-84ac-5c3f0d5f36c7")
+			(uuid "881c9a5e-9028-4d98-917b-0b23285a4b17")
 			(effects
 				(font
 					(size 1 1)
@@ -4291,7 +4357,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "785505fd-34d4-4b93-90e3-68b6861c82fd")
+			(uuid "20b87517-99a7-4d37-978d-6eacdd904b18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,12 +4365,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfdcb8e7-67c3-4acf-8942-8a755c8dfef7")
+			(uuid "1afe61b5-4dee-4198-8afa-58b885e35e40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,6 +4381,12 @@
 		(path "/49e48ffb-925d-4198-ac32-533412c304cb")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4554,7 +4626,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d178a5e1-5b56-4b90-b2b7-714a08221963")
+			(uuid "cb5e305e-16fa-4df8-8043-6d4b421b9344")
 			(effects
 				(font
 					(size 1 1)
@@ -4567,7 +4639,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51d87f71-e73b-466d-9e90-d6f81b9b20ab")
+			(uuid "1afa42e4-4d92-4938-8593-afb0d3a05ae6")
 			(effects
 				(font
 					(size 1 1)
@@ -4575,11 +4647,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c735b7ec-d83e-48a2-b9a9-f0d2a36c87ce")
+			(uuid "9a6a6faf-d7d0-430d-890f-1deac9c821d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,11 +4659,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64e4a1d8-27d6-4e48-9843-f233f55acaec")
+			(uuid "69f35d05-1c76-4e52-b4ed-03a9b7258ac0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,6 +4688,12 @@
 		(path "/86d66a88-6e03-4aff-9108-4548373f1959")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -4897,7 +4975,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "47b20226-4904-4107-aa1c-bd77747babfe")
@@ -4917,7 +4995,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "b4b6f156-c8af-4bde-ad36-8a0ba161ce11")
@@ -4966,7 +5044,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "772c2677-ab75-41e2-a45c-5048fadbe65e")
+			(uuid "5229de25-971f-4258-bdf7-73342bcd7266")
 			(effects
 				(font
 					(size 1 1)
@@ -4978,7 +5056,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1493d098-5034-414c-82f4-bd0f073c855c")
+			(uuid "4e22da13-a885-4958-8fef-5f831f03c641")
 			(effects
 				(font
 					(size 1 1)
@@ -4991,7 +5069,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97b541cd-045d-4270-9f53-19cf07a81a2c")
+			(uuid "1398d601-d011-475a-8f2e-d41c8d8e55fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,12 +5077,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25ff7e9d-4097-4838-af94-54c6f7cba804")
+			(uuid "4460f156-181b-43d1-ad4d-fd984d44a4f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,6 +5093,12 @@
 		(path "/e10aff2b-4707-4eb3-9ee7-7986ef6fc25b")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5254,7 +5338,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d7120d1d-c262-4b39-a417-94785b4a5e8c")
+			(uuid "0699b1b8-abf7-468c-8a34-9d8ee142e7ca")
 			(effects
 				(font
 					(size 1 1)
@@ -5267,7 +5351,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0df3cd5-732a-491b-9c59-2ca7e45e9581")
+			(uuid "7a8dd0e7-006d-45e2-81d0-15dd2050f7a8")
 			(effects
 				(font
 					(size 1 1)
@@ -5275,11 +5359,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0dd7f71-ca4d-44d7-bf16-ccc71246131b")
+			(uuid "73057e15-108f-407b-b3b8-97337b09da22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,11 +5371,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f71bc529-9476-432e-806d-f90c0a6d884d")
+			(uuid "b343fba0-07f1-4b69-850b-791ff89527bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,6 +5400,12 @@
 		(path "/c8505165-c731-4792-b7fb-5db6e43b7eaf")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -5597,7 +5687,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "1fb96bd1-15d8-4eab-a76a-34e0af69585d")
@@ -5617,7 +5707,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "ac3cf568-48ba-44fc-a488-3881c88c16fd")
@@ -5666,8 +5756,7 @@
 			(at 4 -2.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "74fe78ca-8d83-4d52-ae23-426b7cbb354a")
+			(uuid "6e7c5400-e407-4068-bc3b-687bd7e5e631")
 			(effects
 				(font
 					(size 1 1)
@@ -5680,7 +5769,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c675baa8-69c1-4bfd-b9d0-7e072332d0c3")
+			(uuid "4cbd3d52-31ae-434d-ba6b-ba9db1581484")
 			(effects
 				(font
 					(size 1 1)
@@ -5693,7 +5782,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "680f5005-f4bd-4470-bb52-9612e0b556c8")
+			(uuid "4f185914-0764-4eff-a8ce-87fffe1e4a26")
 			(effects
 				(font
 					(size 1 1)
@@ -5706,7 +5795,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2fb97bce-4ea9-4abf-a87c-ce642aae341c")
+			(uuid "5e2b9a12-1943-439b-9faf-fc44f92a1c19")
 			(effects
 				(font
 					(size 1 1)
@@ -5759,7 +5848,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
+			(layer "Dwgs.User")
 			(uuid "a2ae84c3-cf19-4245-92d9-716a3535a106")
 		)
 		(fp_rect
@@ -5804,6 +5893,18 @@
 			(layer "F.Fab")
 			(uuid "5726fe41-9694-4b1e-ab50-b656e1263a1d")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 17.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fab28ea5-d36a-4418-8947-a9c927659f70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
 			(size 1.7 1.7)
@@ -5811,7 +5912,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "GND_1")
 			(pintype "power_in")
 			(uuid "d1146aab-911d-490e-a83c-cdd83353f891")
@@ -5822,7 +5923,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/3V3")
+			(net "+3V3")
 			(pinfunction "VCC_2")
 			(pintype "power_in")
 			(uuid "afafa682-6de1-46a0-bbf3-cb7d34437fb5")
@@ -5861,17 +5962,6 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/Users/sriramgopal/Downloads/128-x-32-oled-display-0-91-inch-i2c-1/OLED 128 x 32 Display Assembly.step"
-			(offset
-				(xyz 3.8 -17.75 4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "footprints:SK6812MINI-E_fixed"
 		(layer "F.Cu")
@@ -5883,7 +5973,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7788dd39-8b5d-4313-a282-1a25038a68e2")
+			(uuid "1683abe2-431c-4dbb-8be0-b8e226c0ca6c")
 			(effects
 				(font
 					(size 1 1)
@@ -5896,7 +5986,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f601ecb9-9fa2-4b30-8965-65dc6991cee6")
+			(uuid "fddd5b32-8cce-445c-805f-71976ea4090b")
 			(effects
 				(font
 					(size 1 1)
@@ -5904,11 +5994,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "971484e3-e3a7-43f1-9085-9aa067a59b89")
+			(uuid "c356a5b5-c9e8-4faf-abc6-381789f67f5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,11 +6006,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ffc9619-6f52-42e4-aa99-f786df1b57ff")
+			(uuid "f12a5f21-09a8-4a89-8cd3-658719bcc1ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,6 +6035,12 @@
 		(path "/ea0985c0-ef9f-4c59-b4a5-c9953d403265")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -6226,7 +6322,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "57757936-1e40-4554-b4dd-46b509258161")
@@ -6246,7 +6342,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "cca1af2c-1556-4b12-9268-1e4f9d2ac26a")
@@ -6295,7 +6391,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bdb8f689-9947-4d12-b859-1918d69ad86c")
+			(uuid "33333a27-1980-458b-8520-131a6f18b5c3")
 			(effects
 				(font
 					(size 1 1)
@@ -6308,7 +6404,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a75fc572-e6c4-4983-9997-aadaa6592e4b")
+			(uuid "d1c7feed-1254-41e5-ad95-77f3c22c574a")
 			(effects
 				(font
 					(size 1 1)
@@ -6316,11 +6412,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a55c495c-d49b-4f88-88a9-c98e6e42df03")
+			(uuid "887512fa-e15f-46e1-9e36-5f7d45df7098")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,11 +6424,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6a4c20c-a392-497e-aed0-0ba6b54dd294")
+			(uuid "f6efbab5-e73f-4d04-8c98-0b9abce68abf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,6 +6453,12 @@
 		(path "/53207da9-b8be-4de4-a593-6942a9a41750")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -6638,7 +6740,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "b23a636e-2bf9-47ca-b4ed-0b6b7632c2cb")
@@ -6658,7 +6760,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "f02efe89-bd90-4715-b576-2117da37673d")
@@ -6707,7 +6809,7 @@
 			(at 0.6 -3.1 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0af73207-5230-4cce-bf12-3fe532ff9e5a")
+			(uuid "4538d75f-4895-4c8c-aa69-b82509dbb4e0")
 			(effects
 				(font
 					(size 1 1)
@@ -6720,7 +6822,7 @@
 			(at 0 3.370001 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38220e39-b89d-4c61-b3f2-8f80e7de4e0f")
+			(uuid "8e00f81a-1176-4c73-9a67-d1616cbfa506")
 			(effects
 				(font
 					(size 1 1)
@@ -6728,11 +6830,11 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa8fda88-1432-448d-8342-5ffafe63771e")
+			(uuid "d9cbcfb1-822c-4381-9b0a-c25961768510")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,11 +6842,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0.000001 -0.002842 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9baf273-7c10-44c6-a3b2-aab2b8fbfd0d")
+			(uuid "64253210-6e60-4350-8353-2896780e1b15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,6 +6871,12 @@
 		(path "/a6421ebe-b052-4671-91b2-c359d3cad645")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -7050,7 +7158,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/3V3")
+			(net "+5V")
 			(pinfunction "VDD_1")
 			(pintype "power_in")
 			(uuid "d594fba4-ddf8-4d97-84b3-35b04dd3fcaa")
@@ -7070,7 +7178,7 @@
 			(size 0.82 1.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "VSS_3")
 			(pintype "power_in")
 			(uuid "4956e0ed-9d2b-4e59-b041-23dabfecd9fd")
@@ -7262,7 +7370,7 @@
 			(at -2.54 9.525 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1dac7b72-6cc5-4ad9-acb4-012d7bf2ec1a")
+			(uuid "518db237-332f-4bfa-bc63-bfdacfa2d379")
 			(effects
 				(font
 					(size 1 1)
@@ -7274,7 +7382,7 @@
 			(at -2.54 13.335 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a339396-1ddc-451e-b475-a7a09070b35d")
+			(uuid "b2418e7b-5630-4186-b5d8-a8c0dbcfb0a5")
 			(effects
 				(font
 					(size 1 1)
@@ -7287,7 +7395,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8e4d4ac-07ef-4aee-ae08-ac7e1fcc51f7")
+			(uuid "fc1d8112-7146-4079-968a-5828cb23fbce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,12 +7403,12 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ce9242b-d690-4fdf-be85-61af43296148")
+			(uuid "b5ac15cf-ec6d-437c-87a2-abe74e129722")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,6 +7419,12 @@
 		(path "/d0bf4a3a-a317-4cac-8e92-053f109f5c5c")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7550,7 +7664,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9d6b7b6b-e906-4a41-86eb-22b7e0cae229")
+			(uuid "cdefbde2-7ab3-460e-82aa-321e08cd9ff4")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7562,7 +7676,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "13971bc1-7277-4b2c-a6da-63ddc9aa9729")
+			(uuid "9b50e6d5-525d-4ffc-8d6f-d38561356c89")
 			(effects
 				(font
 					(size 1 1)
@@ -7571,11 +7685,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c8b52592-bfa8-450f-acb1-276cfc706c72")
+			(uuid "0c0a6b48-6f26-4cea-a3e3-2f61fe463d26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,11 +7697,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bcb65c5e-f10c-4b87-aded-09353ba42437")
+			(uuid "34a979f1-f443-4297-8aee-fec62783448e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,10 +7722,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc09a25b-3c79-4478-8186-4df18dd36e7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65cdce79-4746-419a-90d4-c8ec04e330dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/319605b1-cd45-4d7d-969d-da9df579d96c")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7793,7 +7941,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "87ab4f24-593e-4d9f-bd17-fb990a834580")
+			(uuid "d7a75b5b-4b99-43fc-817f-042b2a8cb2d6")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7805,7 +7953,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6aab75da-08da-4131-919c-d0e086f54432")
+			(uuid "a0c2bd3b-071f-4a6d-9f48-08be70871fd6")
 			(effects
 				(font
 					(size 1 1)
@@ -7814,11 +7962,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df9d66fd-517a-4d2e-a62f-b85b039b9c3c")
+			(uuid "1be515e0-c88d-4687-b407-40b3226dc61e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,11 +7974,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7cffd730-8b08-4c02-b9a7-580a36fcd2dd")
+			(uuid "66f119a7-5159-43e4-99da-1bb8c532d036")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,10 +7999,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d8c5c85-81d7-45ef-87fb-d5412f25e198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03eb6065-06f0-4f3f-b02d-6499084f0c4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/fd929be4-ee86-493d-bb77-3ac9e53b6c23")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8036,7 +8218,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "fc23bb3a-74a1-47b0-ac63-d27e1751a8f4")
+			(uuid "710adbb8-d1b2-4841-bd4d-c6800082aebe")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8048,7 +8230,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5141ab45-4d0e-48df-bfb6-4b806258cd6a")
+			(uuid "0aab3e4a-a583-4d67-af16-9dc466f6dfb6")
 			(effects
 				(font
 					(size 1 1)
@@ -8057,11 +8239,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e3e1777e-14ab-489e-a0ad-99df2cfd5e45")
+			(uuid "7fe56152-2629-4400-a1f7-8728545e3092")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,11 +8251,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c678e87b-94ec-4c18-948a-7e41a068c797")
+			(uuid "8152bb8b-f5cc-4a8a-a7a6-1269236ba809")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,10 +8276,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a08ccd4c-1c49-4adb-b548-d71da8d5643e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02e9f747-0198-4b1f-8c4d-9e83b66f8eac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/f3712717-c277-4b8d-a610-1cc0a1b5d426")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8279,7 +8495,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "b89aa09c-65d5-4541-abac-8d7e07ce630d")
+			(uuid "c6e405a5-e66a-42cc-b672-fb7c6bdf6146")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8291,7 +8507,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4a5a7ff1-7db9-42af-a347-d3ff0f12883b")
+			(uuid "008e2899-bc14-4416-a6cf-15639814e5bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8300,11 +8516,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9098089c-fd24-481d-9505-45b0fa1ba826")
+			(uuid "559f7055-5d70-48ea-aa54-744c7ba66a6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,11 +8528,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "02422143-7a62-459a-9391-eb7d2edee470")
+			(uuid "a0f5977f-ba77-4dbe-b757-f2d9271d73a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,10 +8553,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1e302a17-243d-46fd-bb15-f47ba52dc3d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c2ebea3-d8c0-4b08-b128-8325f878e0ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/823dde85-3330-4f48-afd8-55afc6b371ca")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8522,7 +8772,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ea68eb7d-f2e0-4435-afcf-18a488f5819a")
+			(uuid "32e89699-96b4-43fd-a4b3-6fb60d43024e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8534,7 +8784,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8cba4e45-dd12-4c54-8ad6-bbbe0ac7af5c")
+			(uuid "bb4beb92-e9d5-4023-88cb-46cb6578c2fb")
 			(effects
 				(font
 					(size 1 1)
@@ -8543,11 +8793,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc2b6f2c-f404-49a2-9409-da1736559503")
+			(uuid "e96f999c-efcc-4417-8b01-32343f9b25aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,11 +8805,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "81c0ca7c-489f-43f5-853d-a18ab0e63f5d")
+			(uuid "84dcc2c6-1cf4-4986-b4aa-a3379ad7aea3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,10 +8830,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3029f660-ab96-42ab-b8af-7041dce701ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39aecc55-e79e-469d-9bda-64de34c6badc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/b4f67d4a-675e-4b1e-85b3-71c5b1cbfaf1")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8765,7 +9049,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8cb060f6-3200-4478-a437-3c0e0a425ae6")
+			(uuid "3af2d54c-f987-441d-9035-a9c3c96c12e7")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8777,7 +9061,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "054df840-5a9e-443c-aea7-55e3a396882d")
+			(uuid "6a0d615e-b759-4297-abca-5e1e644c4f4d")
 			(effects
 				(font
 					(size 1 1)
@@ -8786,11 +9070,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7f6dd9d9-4627-4d4e-ab73-2ce168e23c61")
+			(uuid "15fcc319-8737-41bc-9beb-7cbec12a84fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,11 +9082,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f429a8aa-cf59-4f86-b39e-24bed53faede")
+			(uuid "69af008e-a816-440a-a281-779a85610bd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,10 +9107,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f42bd7a4-8532-411f-b394-02c13e42e803")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80f48471-f2c8-4ffe-809b-810f980afd26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/f6913bf1-e519-4409-b1e3-9ca42d0e0b98")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9008,7 +9326,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "51cb84f4-a636-40cb-a226-8602ba768213")
+			(uuid "dc2ae4e3-1242-4bf7-8d19-764ed9109cab")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9020,7 +9338,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ecc04660-b9ae-4e37-aace-61072640921e")
+			(uuid "7faa5583-6221-4693-9888-fabb06b5b186")
 			(effects
 				(font
 					(size 1 1)
@@ -9029,11 +9347,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a41cad14-8fdd-4e1a-ba86-754d63ceb9ba")
+			(uuid "54428cdf-f647-4ffa-a493-cea4e5ee4ff3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,11 +9359,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5cd57f1b-e4d2-4fa8-aabc-c6e868304fca")
+			(uuid "16f222ec-6540-4a88-9cb8-1c99d522472c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,10 +9384,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "345e4127-f9c3-4eb9-a435-83d4a9f09e57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03325417-0d39-4435-be46-62cf4c265787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/f9c4786d-6061-4a3d-9fc8-1c0e263bdaeb")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9251,7 +9603,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "3fd360a5-49ce-4a5b-9756-220b94e7f81e")
+			(uuid "953e8bc9-d344-4853-b34a-e5af5d3005a0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9263,7 +9615,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ce5d3599-1221-4e72-bb4b-7d554e6165f9")
+			(uuid "b6e335fe-cc96-493d-870f-f4e43629e32f")
 			(effects
 				(font
 					(size 1 1)
@@ -9272,11 +9624,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "405d932f-31e3-44af-888f-473b438b1d6d")
+			(uuid "2177131b-0162-4db8-96b5-a1ac927bf175")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,11 +9636,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e70f4a5-663c-430d-8f4e-ac5c1c9eb459")
+			(uuid "ae7ca5f2-dac6-46b0-a6ee-95195898891e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,10 +9661,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8b33646-63b9-40b9-a55a-f5b25e4e06d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2dc04b7d-98df-4483-a19b-90f1e09b040f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/95b6acb1-adad-41d5-a150-242deedb91ae")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9494,7 +9880,7 @@
 			(at 4.445 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "69cb87a1-42b9-4d72-9da6-1e672b6a6940")
+			(uuid "e4fb2b19-b432-4bc2-85bb-2d879cd52ab4")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9506,7 +9892,7 @@
 			(at 3.81 -2.12 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ecec69b-1127-499c-be32-e904db723adc")
+			(uuid "b7cebdbd-87a9-45a3-afbd-330285d6f942")
 			(effects
 				(font
 					(size 1 1)
@@ -9515,11 +9901,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8c5a191a-acce-4b87-9207-af6b42bb99a1")
+			(uuid "4ca0717d-02bf-4574-84a0-ed022259377a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,11 +9913,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d98692fc-09da-425e-a927-fc9698cd7cc3")
+			(uuid "9f53f181-8194-4c7d-8eb8-10a854bb3578")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,10 +9938,44 @@
 				(justify mirror)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f24f2f4-e7ce-4ef1-91a6-f5a4dc9f8203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ca833730-40dd-4187-9776-5f52afaaf198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/6941ca21-76bb-4ab5-85dc-7002923c4f25")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9735,7 +10155,7 @@
 			(at 0 -2.54 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "dcac8212-6448-46ad-8f0d-31af0acd1511")
+			(uuid "80cf0c16-0c37-432d-b2d7-854f87ed0f45")
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -9748,7 +10168,7 @@
 			(at 0 -5.08 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "2ed91b98-c6c2-4fbc-a5e6-da606663031a")
+			(uuid "25dac37a-a9b8-4f4b-a1c6-ceaf26ad0a9f")
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -9761,7 +10181,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca282c64-a146-4181-852f-2e4b44832f00")
+			(uuid "3ada619e-f1f3-4aab-a286-889780b4cb88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,7 +10193,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f3456219-29ed-4245-96d2-47a27bd8e72b")
+			(uuid "ec271068-f611-4166-bbf0-f54b3c05bd90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,6 +10204,12 @@
 		(path "/41ea4f47-81cc-4259-afea-969757354b9d")
 		(sheetname "/")
 		(sheetfile "Nexus Hackpad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12579,27 +13005,25 @@
 		(fp_text user "Seeed Studio"
 			(at 0 1.5 0)
 			(unlocked yes)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "04bf4215-9a9a-4469-9130-b13144cfabbc")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(fp_text user "XIAO"
 			(at 0 -0.5 0)
 			(unlocked yes)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "e800e0e8-f17b-4ad4-a7d1-5f5d46998e84")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole rect
@@ -12753,7 +13177,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/3V3")
+			(net "+3V3")
 			(pinfunction "3V3_12")
 			(pintype "passive")
 			(uuid "20c220d0-dc11-4c55-87e7-c9cee84dd417")
@@ -12766,7 +13190,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/GND")
+			(net "GND")
 			(pinfunction "GND_13")
 			(pintype "passive")
 			(uuid "38f84413-c226-4658-bb33-a5aec7c3a4d9")
@@ -12779,9 +13203,9 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-5V-Pad14)")
+			(net "+5V")
 			(pinfunction "5V_14")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "d694afc5-db45-4338-a60e-83be637b9000")
 		)
 		(embedded_fonts no)
@@ -13402,7 +13826,7 @@
 		(end 119.295 56.09)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "39ba9c21-cea3-48ab-976e-939216942545")
 	)
 	(segment
@@ -13410,7 +13834,7 @@
 		(end 165.945737 90.734263)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "48f143ca-5aa6-4e25-8834-f7c8d84b160d")
 	)
 	(segment
@@ -13418,7 +13842,7 @@
 		(end 165.744263 90.734263)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "686a2b83-0168-431e-b5bf-4a95309ebd27")
 	)
 	(segment
@@ -13426,7 +13850,7 @@
 		(end 143.4345 31.982015)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "8216852c-5f8d-41f6-af29-d428cf62f6d8")
 	)
 	(segment
@@ -13434,7 +13858,7 @@
 		(end 166.52 82.836277)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "9d057e49-7617-4e73-8806-71b8e00e1cc9")
 	)
 	(segment
@@ -13442,7 +13866,7 @@
 		(end 163.19 101.40689)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "a68d9f32-962c-4dbd-a1ac-9c363d728e87")
 	)
 	(segment
@@ -13450,7 +13874,7 @@
 		(end 119.295 49.377968)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "b8098848-cb52-4966-af99-05202459b5d4")
 	)
 	(segment
@@ -13458,7 +13882,7 @@
 		(end 136.690953 31.982015)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "c86187b7-f83c-4fb4-a5ec-174ef693fe39")
 	)
 	(segment
@@ -13466,7 +13890,7 @@
 		(end 163.23 101.36689)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "ccb1fbe9-d8a8-4e2f-9791-92dff11f851e")
 	)
 	(segment
@@ -13474,7 +13898,7 @@
 		(end 166.52 90.16)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "fc1c9a77-6fdd-47e5-8322-9131ebf259ce")
 	)
 	(via
@@ -13482,7 +13906,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "1ee1e4ee-c97d-4b36-b301-a57dd538d72c")
 	)
 	(via
@@ -13490,7 +13914,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "6fb40214-e489-4338-aebf-cdbe360bfd2b")
 	)
 	(via
@@ -13498,7 +13922,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "75b08069-e1ee-4411-98da-9d32dfc27d45")
 	)
 	(via
@@ -13506,7 +13930,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "ad3c133b-d339-45ff-8f0d-893050593393")
 	)
 	(segment
@@ -13514,7 +13938,7 @@
 		(end 166.5225 117.86)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "0511a881-42dc-4a23-aeb2-272fd79b01b7")
 	)
 	(segment
@@ -13522,7 +13946,7 @@
 		(end 163.19 105.55)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "194695da-6ca3-41cc-b8be-5f0446e4d2ea")
 	)
 	(segment
@@ -13530,7 +13954,7 @@
 		(end 128.4225 78.29)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "1d7827cf-f8ae-4106-a601-818d2b9576e3")
 	)
 	(segment
@@ -13538,7 +13962,7 @@
 		(end 166.5225 111.845444)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "27fac31a-9a33-40e6-81ba-a4d29f0c125f")
 	)
 	(segment
@@ -13546,7 +13970,7 @@
 		(end 144.34561 78.29)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "2c248e9d-89a9-4baa-b912-8eaaf794e83a")
 	)
 	(segment
@@ -13554,7 +13978,7 @@
 		(end 164.97561 98.92)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "2ce69b12-0153-487d-a4bf-f5b7f749976b")
 	)
 	(segment
@@ -13562,7 +13986,7 @@
 		(end 161.6 53.96)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "4541f5d7-cf61-435e-a5fa-cbee308ca74e")
 	)
 	(segment
@@ -13570,7 +13994,7 @@
 		(end 130.076204 98.813186)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "5364ec73-77f2-41b5-87d4-2e3339db3660")
 	)
 	(segment
@@ -13578,7 +14002,7 @@
 		(end 128.4225 69.141029)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "59045c4e-8d04-40cb-85b2-0970b66cb9c6")
 	)
 	(segment
@@ -13586,7 +14010,7 @@
 		(end 166.5225 100.46689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "5d045875-48b0-4b29-b052-d7db78537963")
 	)
 	(segment
@@ -13594,7 +14018,7 @@
 		(end 147.4725 68.0875)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "67c11998-5316-47cb-aaa3-76084359491b")
 	)
 	(segment
@@ -13602,7 +14026,7 @@
 		(end 121.275 58.45)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "74913a75-fe70-41b5-9d16-db164f80f850")
 	)
 	(segment
@@ -13610,7 +14034,7 @@
 		(end 128.4225 78.29)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "75b1f0c9-83c3-435c-93f4-8dc9fa4e4520")
 	)
 	(segment
@@ -13618,7 +14042,7 @@
 		(end 130.05326 117.88613)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "86f54eec-760a-45ee-ae08-77a9d7c4ed83")
 	)
 	(segment
@@ -13626,7 +14050,7 @@
 		(end 145.84174 117.88613)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "87fdc7a2-8107-4415-92a1-915538d5f73d")
 	)
 	(segment
@@ -13634,7 +14058,7 @@
 		(end 162.9 56.61)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "8b133925-5218-439f-ad33-789a01787e88")
 	)
 	(segment
@@ -13642,7 +14066,7 @@
 		(end 166.5225 100.46689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "92dc1be5-b4e9-4298-a2bb-40536360d545")
 	)
 	(segment
@@ -13650,7 +14074,7 @@
 		(end 145.818796 98.813186)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "9f42d8a5-e756-46e7-9fb9-dc726ad7ff18")
 	)
 	(segment
@@ -13658,7 +14082,7 @@
 		(end 121.275 61.993529)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "a2b935e3-ff4b-4527-87b8-c432196673e9")
 	)
 	(segment
@@ -13666,7 +14090,7 @@
 		(end 147.4725 119.51689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "b4313c31-e8a9-4fc1-8851-ad99663aa03d")
 	)
 	(segment
@@ -13674,7 +14098,7 @@
 		(end 147.4725 100.46689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "b5652ad6-1782-4a22-ba20-8baab2baa4ac")
 	)
 	(segment
@@ -13682,7 +14106,7 @@
 		(end 165.699999 82.016276)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "be847ab9-7780-4fdd-a208-535a7236f445")
 	)
 	(segment
@@ -13690,7 +14114,7 @@
 		(end 149.01939 98.92)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "cf98d403-34b6-416e-a4b9-a850d76093aa")
 	)
 	(segment
@@ -13698,7 +14122,7 @@
 		(end 164.13 100.46689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "d2c750e8-5fdb-49c3-88fe-b2b8a19a894b")
 	)
 	(segment
@@ -13706,7 +14130,7 @@
 		(end 166.49637 117.88613)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "d7fb12e2-1094-4ca3-b91e-751aebd787da")
 	)
 	(segment
@@ -13714,7 +14138,7 @@
 		(end 147.4725 100.46689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "d9e2e7fb-c864-47e2-ae4a-530e3b97e84a")
 	)
 	(segment
@@ -13722,7 +14146,7 @@
 		(end 163.19 108.512944)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "db23a624-108a-4d95-a8d8-795e02324d57")
 	)
 	(segment
@@ -13730,7 +14154,7 @@
 		(end 165.744263 99.688653)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "dd1cd71b-c604-4ac6-9d78-0a9a3c5a22e2")
 	)
 	(segment
@@ -13738,7 +14162,7 @@
 		(end 172.85 75.08939)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "ee14336d-335b-41f8-aa6c-6ff044cc84ee")
 	)
 	(segment
@@ -13746,7 +14170,7 @@
 		(end 166.5225 117.86)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "eea4c2c4-aaff-4ab1-a776-594e6bd39d4c")
 	)
 	(segment
@@ -13754,7 +14178,7 @@
 		(end 172.85 66.56)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "f167ab35-1d21-4e48-8b10-c5a150d3e90f")
 	)
 	(segment
@@ -13762,7 +14186,7 @@
 		(end 147.4725 81.41689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "fa20b3df-66dc-4b48-baa3-17b0712b1d12")
 	)
 	(segment
@@ -13770,7 +14194,7 @@
 		(end 162.9 55.26)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/GND")
+		(net "GND")
 		(uuid "fc750005-5a4c-4cab-b120-fa8cad44af53")
 	)
 	(segment
@@ -13778,7 +14202,7 @@
 		(end 171.683436 83.615693)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "00a5004d-efb6-40c4-aebb-f92fdd5ff8f0")
 	)
 	(segment
@@ -13786,7 +14210,7 @@
 		(end 172.684343 103.004343)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "02b34488-3e44-4b1d-b8a2-18dab97eaf73")
 	)
 	(segment
@@ -13794,7 +14218,7 @@
 		(end 172.85321 84.785467)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "0b6a9469-3f0b-4a3b-b42e-0de9df82b8b7")
 	)
 	(segment
@@ -13802,7 +14226,7 @@
 		(end 172.33 111.76)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "0d15c452-e695-431d-ba80-034b9ccdc162")
 	)
 	(segment
@@ -13810,71 +14234,39 @@
 		(end 172.45 102.77)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "0e7d5575-a832-467d-8f89-252d05167bc4")
 	)
 	(segment
-		(start 122.477081 59.806547)
-		(end 120.17 62.113628)
+		(start 118.895 60.838628)
+		(end 118.895 49.212282)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "19091fe1-1e25-476d-badf-6892dc50d15b")
-	)
-	(segment
-		(start 134.716639 34.522015)
-		(end 143.4345 34.522015)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "1ea9fa2c-ffc8-47f3-bfd9-ce41c62371f2")
-	)
-	(segment
-		(start 119.695 53.95)
-		(end 119.695 49.543654)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "240a4fb7-74b7-4319-a89a-1a9f0107aad5")
+		(net "+5V")
+		(uuid "17049b35-d722-4b72-85a3-40fcd01ed7ae")
 	)
 	(segment
 		(start 133.929899 85.32)
 		(end 134.75 86.140101)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "54b13c2a-c484-4915-bc0c-eeb6fbea1fa8")
-	)
-	(segment
-		(start 119.695 49.543654)
-		(end 134.716639 34.522015)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "5b42082d-b555-4c3d-bd36-1d8eda807589")
 	)
 	(segment
 		(start 144.03 103.501471)
 		(end 144.03 105.264744)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "61cf7a86-4680-45a3-b723-a56484f314ae")
-	)
-	(segment
-		(start 120.845 55.1)
-		(end 119.695 53.95)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "69dde663-92da-4495-962e-e9f3612520b5")
 	)
 	(segment
 		(start 134.75 86.140101)
 		(end 134.75 90.37147)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "76dc2476-d055-4736-a073-65bf0f58570a")
 	)
 	(segment
@@ -13882,7 +14274,7 @@
 		(end 134.8 109.02)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "7dee1939-6171-45cf-8761-1e19d3441d4c")
 	)
 	(segment
@@ -13890,7 +14282,7 @@
 		(end 162.26 121.83)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "8c7b88a3-a4c2-4940-b9bd-499c0c7a9a84")
 	)
 	(segment
@@ -13898,7 +14290,7 @@
 		(end 171.330923 103.004343)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "8fa74a95-2123-4362-b40f-3cad826fe87b")
 	)
 	(segment
@@ -13906,7 +14298,7 @@
 		(end 171.7225 101.96689)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "9007540d-59d5-4831-a7e3-31ef998ad539")
 	)
 	(segment
@@ -13914,7 +14306,7 @@
 		(end 172.85321 87.296689)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "957fd0af-8203-434f-8bb5-8874fdaa2a9f")
 	)
 	(segment
@@ -13922,7 +14314,7 @@
 		(end 120.17 77.065635)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "994c9bfc-153b-4836-995b-0079617ab63c")
 	)
 	(segment
@@ -13930,7 +14322,7 @@
 		(end 134.040735 91.080735)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "9dcae0b6-07a3-4f62-98f1-26070081f6b4")
 	)
 	(segment
@@ -13938,15 +14330,23 @@
 		(end 143.179264 102.650736)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "a241a353-1671-4943-8eca-b40f6683454a")
+	)
+	(segment
+		(start 138.665267 29.442015)
+		(end 143.4345 29.442015)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "a55bd2b0-ebe3-4f94-b572-96abc6f3ca53")
 	)
 	(segment
 		(start 171.330923 103.004343)
 		(end 171.7225 102.612766)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "a64cfd5e-00ef-451e-9a63-f3307db32fdb")
 	)
 	(segment
@@ -13954,7 +14354,7 @@
 		(end 173.15 103.47)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "adec25b4-11ef-4081-b079-a60fda912d17")
 	)
 	(segment
@@ -13962,7 +14362,7 @@
 		(end 133.929899 85.32)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "ae603381-1ffb-4403-9089-16b12847c054")
 	)
 	(segment
@@ -13970,23 +14370,15 @@
 		(end 140.274744 109.02)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "b1a1432b-6383-4a3b-868c-fd04355e7e57")
-	)
-	(segment
-		(start 120.845 55.1)
-		(end 122.477081 56.732081)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "c3316861-c94e-4c45-9b36-86fc464ac916")
 	)
 	(segment
 		(start 134.040735 91.080735)
 		(end 134.040735 93.512206)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "c5b77a41-c21d-455e-b7dd-304fa55a0126")
 	)
 	(segment
@@ -13994,7 +14386,7 @@
 		(end 133.6225 110.1975)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "ca6d8b15-8eb8-4ad3-b42b-934a7a7b79b5")
 	)
 	(segment
@@ -14002,23 +14394,15 @@
 		(end 172.92 103.7)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "cb3a09a8-d6d7-4931-b4df-f697f4201294")
-	)
-	(segment
-		(start 122.477081 56.732081)
-		(end 122.477081 59.806547)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/3V3")
-		(uuid "cb7ab24d-b000-4786-a2f7-7dda5a4e079f")
 	)
 	(segment
 		(start 133.6225 110.1975)
 		(end 133.6225 121.01689)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "ce545961-d8b2-4299-b851-213281e60fcf")
 	)
 	(segment
@@ -14026,15 +14410,23 @@
 		(end 172.45 87.699899)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "d35e89df-bfcb-4c1a-bb0d-0a97873355d6")
+	)
+	(segment
+		(start 120.17 62.113628)
+		(end 118.895 60.838628)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "df89ca6c-2a70-452a-8514-0f7bc094d5e3")
 	)
 	(segment
 		(start 120.17 77.065635)
 		(end 128.424365 85.32)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "eae36132-ceca-4b2c-a33f-50c4672bba3a")
 	)
 	(segment
@@ -14042,15 +14434,23 @@
 		(end 144.03 103.501471)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "f31ee6db-cc2b-4008-9393-005ee18d277e")
+	)
+	(segment
+		(start 118.895 49.212282)
+		(end 138.665267 29.442015)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "f9ba1dd6-f253-454f-9af5-3bb4a1085ec9")
 	)
 	(via
 		(at 133.6225 121.01689)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "2ff96162-db4d-484f-b2fb-32876b05a07c")
 	)
 	(via
@@ -14058,7 +14458,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "33204636-49a3-4e93-b174-f9ee3b0d1c32")
 	)
 	(via
@@ -14066,7 +14466,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "48568d19-7695-4c95-ba10-3325165b0628")
 	)
 	(via
@@ -14074,7 +14474,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "490ed3ab-9aff-4a74-a84a-19e440530f24")
 	)
 	(via
@@ -14082,7 +14482,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "a8840293-e982-4837-907b-25a18c364c24")
 	)
 	(via
@@ -14090,7 +14490,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "ab6ac883-a39f-4ed1-ae7e-0a4046895442")
 	)
 	(via
@@ -14098,7 +14498,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "c93405b7-1e55-4400-897b-14b9bc14702d")
 	)
 	(via
@@ -14106,7 +14506,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "cc519ec0-415e-410c-abc2-b0b529e6f011")
 	)
 	(via
@@ -14114,7 +14514,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "fc33e45b-8a7a-4978-a5c3-c2318c729abd")
 	)
 	(segment
@@ -14122,7 +14522,7 @@
 		(end 138.623738 85.155209)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "061d63dd-a65b-4b95-9101-029342ac4c2e")
 	)
 	(segment
@@ -14130,7 +14530,7 @@
 		(end 172.79 111.22)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "0db7e07f-33cc-4047-ab59-0ffa9a118ef6")
 	)
 	(segment
@@ -14138,7 +14538,7 @@
 		(end 153.48561 121.83)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "194f21ef-357e-47af-a3a7-53371cb28ee5")
 	)
 	(segment
@@ -14146,7 +14546,7 @@
 		(end 138.068529 84.6)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "280444f5-38a4-476a-aecb-692b4d23083b")
 	)
 	(segment
@@ -14154,7 +14554,7 @@
 		(end 173.15 106.049899)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "2beecf90-867b-4681-a2b3-74cffae5c500")
 	)
 	(segment
@@ -14162,7 +14562,7 @@
 		(end 172.79 111.347056)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "2fbfcd6a-c9d0-4067-8a36-fe8f3ab23aa5")
 	)
 	(segment
@@ -14170,7 +14570,7 @@
 		(end 151.968529 103.521471)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "3b8df133-8646-473c-aa47-e0f131df3d92")
 	)
 	(segment
@@ -14178,7 +14578,7 @@
 		(end 146.379265 102.650736)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "41a2dc88-42d6-4d81-bdcf-25318acf55d8")
 	)
 	(segment
@@ -14186,7 +14586,7 @@
 		(end 154.41561 103.71)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "4c9714ec-92db-4795-898f-06288ea8161d")
 	)
 	(segment
@@ -14194,7 +14594,7 @@
 		(end 173.15 103.47)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "5474592a-0218-4901-9b2c-f2cc8c2bcfc2")
 	)
 	(segment
@@ -14202,7 +14602,7 @@
 		(end 171.683436 82.955954)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "55fb0ea3-e9cb-41eb-b371-4591d1218096")
 	)
 	(segment
@@ -14210,7 +14610,7 @@
 		(end 151.49 84.92)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "58715d77-c2c5-4617-947d-7c587f812157")
 	)
 	(segment
@@ -14218,7 +14618,7 @@
 		(end 154.43 121.83)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "5e9c05af-2eaf-4211-8182-666a33c3973b")
 	)
 	(segment
@@ -14226,7 +14626,7 @@
 		(end 152.6725 83.7375)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "64811105-0bbc-4042-9dc0-b062d0727d81")
 	)
 	(segment
@@ -14234,7 +14634,7 @@
 		(end 138.623738 86.497732)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "6e22a871-8867-4a35-b793-4afaabefd91c")
 	)
 	(segment
@@ -14242,7 +14642,7 @@
 		(end 147.25 103.521471)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "70b51d1c-33fc-41f1-b63c-c32b7678737d")
 	)
 	(segment
@@ -14250,7 +14650,7 @@
 		(end 152.6725 102.8175)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "77fb815b-bf5b-4bf4-a4ce-4dd3673061b5")
 	)
 	(segment
@@ -14258,7 +14658,7 @@
 		(end 172.79 111.22)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "7c0644c8-ef4b-4189-aacf-2892815949f3")
 	)
 	(segment
@@ -14266,7 +14666,7 @@
 		(end 173.42 111.977056)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "7c6f5c56-adb7-4c95-affb-82cfffedcfc6")
 	)
 	(segment
@@ -14274,7 +14674,7 @@
 		(end 138.623738 85.155209)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "8813952c-2632-4156-a6d0-3a9a8c0dd5f3")
 	)
 	(segment
@@ -14282,7 +14682,7 @@
 		(end 170.44 103.71)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "8b4e0d06-44d2-4b98-8f5c-c348e21d4481")
 	)
 	(segment
@@ -14290,7 +14690,7 @@
 		(end 143.179264 102.650736)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "8cc8280a-79fd-48c6-9b75-268b55faa297")
 	)
 	(segment
@@ -14298,7 +14698,7 @@
 		(end 172.79 106.409899)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "984a9f49-4466-46e1-b88c-94a5cfeb3672")
 	)
 	(segment
@@ -14306,7 +14706,7 @@
 		(end 143.179264 102.650736)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "9ec33155-a371-4bfb-b118-c2db4bbea9af")
 	)
 	(segment
@@ -14314,7 +14714,7 @@
 		(end 134.040735 91.080735)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "a74c2ca4-9785-4e67-bdd4-ba41b03b06b1")
 	)
 	(segment
@@ -14322,7 +14722,7 @@
 		(end 138.858947 84.92)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "aaa60a31-bc9a-4586-910d-db9af4413e4f")
 	)
 	(segment
@@ -14330,7 +14730,7 @@
 		(end 172.33 111.68)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "b25be2c4-6ac6-4c0c-957d-1e7bca25a5e1")
 	)
 	(segment
@@ -14338,7 +14738,7 @@
 		(end 173.42 120.11939)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "bf9451b8-2cdd-4868-ad51-09ec2f6f3ba6")
 	)
 	(segment
@@ -14346,7 +14746,7 @@
 		(end 135.30561 84.6)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "d02552e2-1dfd-4e46-8e2e-0c5b2604ec1e")
 	)
 	(segment
@@ -14354,7 +14754,7 @@
 		(end 134.306346 102.650736)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "da76aea1-7771-4859-b883-89ee81e1b5d9")
 	)
 	(segment
@@ -14362,7 +14762,7 @@
 		(end 172.5225 121.01689)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "df380578-c174-4cda-baba-0110494f92ba")
 	)
 	(segment
@@ -14370,7 +14770,7 @@
 		(end 170.45 103.7)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "/3V3")
+		(net "+5V")
 		(uuid "e174fdf5-45d3-4a77-8f7c-921c5b754af5")
 	)
 	(segment
@@ -15084,6 +15484,38 @@
 		(layer "B.Cu")
 		(net "Net-(D17-DOUT)")
 		(uuid "e1b3e910-d155-41d4-bf02-99fce30d5e86")
+	)
+	(segment
+		(start 134.716639 34.522015)
+		(end 143.4345 34.522015)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "1ea9fa2c-ffc8-47f3-bfd9-ce41c62371f2")
+	)
+	(segment
+		(start 119.695 53.95)
+		(end 119.695 49.543654)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "240a4fb7-74b7-4319-a89a-1a9f0107aad5")
+	)
+	(segment
+		(start 119.695 49.543654)
+		(end 134.716639 34.522015)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "5b42082d-b555-4c3d-bd36-1d8eda807589")
+	)
+	(segment
+		(start 120.845 55.1)
+		(end 119.695 53.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "69dde663-92da-4495-962e-e9f3612520b5")
 	)
 	(segment
 		(start 120.845 52.56)
