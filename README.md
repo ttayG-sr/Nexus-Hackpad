@@ -34,7 +34,7 @@ This is the PCB that connects all of my components and houses the brain of the N
 
 <p align="center">Schematic:</p>
 
-<img width="1641" height="753" alt="Screenshot 2026-07-10 at 6 45 49 PM" src="https://github.com/user-attachments/assets/06f4fecb-31e7-4683-85c9-6e8b8fd1f53d" />
+<img width="1137" height="458" alt="Screenshot 2026-08-08 at 1 23 13 AM" src="https://github.com/user-attachments/assets/54e68528-5cde-44c7-927f-641e1b1997bb" />
 
 
 <p align="center">PCB:</p>
