@@ -40,7 +40,7 @@ This is the PCB that connects all of my components and houses the brain of the N
 <p align="center">PCB:</p>
 
 <p align="center">
-  <img width="469" height="645" alt="Screenshot 2026-07-10 at 6 48 32 PM" src="https://github.com/user-attachments/assets/ad7bd397-7f33-42be-b779-46bce05811ae" />
+  <img width="497" height="683" alt="Screenshot 2026-08-08 at 1 25 10 AM" src="https://github.com/user-attachments/assets/00b2237f-b5bd-4428-b0ff-87c02342ce9b" />
 </p>
 
 ## Firmware Overview:
